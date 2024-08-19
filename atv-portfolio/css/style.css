@@ -41,10 +41,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /*==============================================================================
                                     GERAL
 ================================================================================*/
+
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:calc(10px + 1vw);
@@ -53,9 +53,13 @@ a{
     color: black;
     text-decoration: none;
 }
+main{
+	margin: 0 20vw 0 20vw;
+}
 /*===========================================
                    TOPO
 ===========================================*/
+
 header{
 	margin: 5vw 5vw 5vw 5vw;
 }
@@ -69,20 +73,16 @@ header nav ul li{
 header nav ul li.atual a{
 	color: #FF6464;
 }
-
 /*===========================================
-                  CONTEÚDO
+           CONTEÚDO - Works
 ===========================================*/
 
-main.main{
-	margin: 0 15vw 0 15vw;
-}
-main h1{
+main.main h1{
 	font-size: 1.5rem;
 }
 main.main section{
    border-bottom:  1px solid #e0e0e0;
-   padding: 0 4vw 0 4vw;
+   padding: 0 6vw 0 6vw;
 }
 main.main section:last-child{
 	border:none;
@@ -96,7 +96,7 @@ main section p{
 	margin: 2vw 0 2vw 0;
 
 }
-main.ruandograu section p span{
+main.main section p span{
    background: #FF6464;
    border-radius: 20px;
    color: white;
@@ -110,4 +110,59 @@ main.ruandograu section p span{
 footer{
 	text-align: center;
 	margin: 5vw 0 5vw 0;
+}
+footer ul{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 3vw 0;
+}
+footer ul li{
+	margin: 0 10px 0 10px;
+	font-size: 1rem;
+}
+/*===========================================
+           CONTEÚDO - Homepage
+===========================================*/
+
+main section.banner{
+	margin: 4vw 0 4vw 0;
+	display: flex;
+}
+section.banner h1{
+	font-weight: bold;
+	font-size: 2rem;
+}
+section.banner p{
+	margin: 1.5vw 0vw 1.5vw 0vw;
+}
+section.banner button{
+	color: #ffffff;
+	font-weight: bold;
+	background: #FF6464;
+	padding: 12px 20px 12px 20px;
+	border: none;
+	font-size: 1rem;
+}
+section.rt-post{
+	background: #edf4fa;
+	padding: 1px 2vw 1px 2vw;
+}
+section.rt-post h2{
+	font-size: 1.5rem;
+	margin: 0 0 1.5vw 0;
+}
+section.rt-post ul{
+	display: flex;
+	border-radius: 20px 20px 20px 20px;
+}
+section.rt-post ul li{
+	background: #ffffff;
+	margin: 0 1.4vw 0 0;
+	padding: 1px 1vw 1px 1vw;
+}
+section.rt-post h3{
+	font-weight: bold;
+}
+section.rt-post ul li p{
+	margin: 2vw 0 2vw 0;
 }
