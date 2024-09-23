@@ -50,26 +50,79 @@ a{
     color: black;
     text-decoration: none;
 }
-
-header{
-    margin: 10px 10px 10px 10px;
+body{
+	margin: 8vw;
 }
+/*/////////////////////////////////////////////////////////////////
+						Header
+/////////////////////////////////////////////////////////////////*/
+header{
+    margin: 20px 20px 35px 20px;
+}
+
+header nav{
+	display: flex;
+	justify-content: space-between;
+}
+
 header nav ul{
     margin: 10px 10px 10px 10px;
-    padding: 1vw 1vw 1vw 1vw;
+    padding: 0vw 1vw 0vw 1vw;
     display: flex;
     justify-content: right;
 }
 header nav ul li{
     margin: 0 10px 0 10px;
+
 }
+header nav ul li a{
+	font-weight: bold;
+	font-size: small;
+}
+
+
+/*/////////////////////////////////////////////////////////////////
+						Inform						
+/////////////////////////////////////////////////////////////////*/
 
 main section.inform{
     display: flex;
+	margin: 10px;
+	justify-content: center;
+	padding: 1vw 10vw 1vw 6vw;
+	border-bottom: 1px solid #e5e5e5;
+}
+main section.inform div{
+	padding: 0 10px 0 10px;
+}
+main section.inform div p.para{
+	font-size: 0.6rem;
+	font-weight: lighter;
+	padding: 0 3vw 3vw 0;
+	margin: 0 2vw 0 2vw;
+	
 }
 main section.inform h1{
-    margin: 10vw 10vw 10vw 10vw;
+	font-size: 2rem;
+	padding: 10vw 7vw 7vw 2vw;
 }
-main section.inform p{
-    
+main section.inform div div.comen{
+	display: flex;
+	
+}
+main section.inform div div.comen p{
+	font-size: 0.6rem;
+	padding: 4px 0 0 0;
+}
+main section.inform div div.comen p span{
+	color: #2c3a4b;
+}
+/*/////////////////////////////////////////////////////////////////
+						Browse
+/////////////////////////////////////////////////////////////////*/
+main section.browse{
+	display: flex;
+}
+main section.browse div{
+	margin: 3vw;
 }
